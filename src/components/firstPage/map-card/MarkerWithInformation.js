@@ -18,7 +18,7 @@ class MarkerWithInfoWindow extends Component {
   }
   render() {
     const { location } = this.props;
-
+console.log("sssssssssssssssssssssssssssss",location)
     return (
       <Marker
         onClick={this.toggle}

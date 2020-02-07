@@ -33,6 +33,7 @@ export default function Index() {
         handleSearchSubmit={handleSearchSubmit}
       />
       <Map searchResult={searchResult} />
+      <button></button>
       {/* comment it for less calls */}
     </div>
   );
